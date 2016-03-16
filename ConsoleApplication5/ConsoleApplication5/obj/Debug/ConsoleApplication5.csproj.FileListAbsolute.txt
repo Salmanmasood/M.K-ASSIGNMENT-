@@ -3,3 +3,8 @@ C:\Users\DAWAR\documents\visual studio 2013\Projects\ConsoleApplication5\Console
 C:\Users\DAWAR\documents\visual studio 2013\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
 C:\Users\DAWAR\documents\visual studio 2013\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
 C:\Users\DAWAR\documents\visual studio 2013\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\salman(AL-FARSI)\Downloads\m.k\New folder\M.K-ASSIGNMENT-\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\salman(AL-FARSI)\Downloads\m.k\New folder\M.K-ASSIGNMENT-\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\salman(AL-FARSI)\Downloads\m.k\New folder\M.K-ASSIGNMENT-\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\salman(AL-FARSI)\Downloads\m.k\New folder\M.K-ASSIGNMENT-\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\salman(AL-FARSI)\Downloads\m.k\New folder\M.K-ASSIGNMENT-\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb

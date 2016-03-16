@@ -21,7 +21,7 @@ namespace ConsoleApplication5
             Console.WriteLine();
             for (int i = 0; i < array1; i++)
             {
-                Console.Write("Enter No #"+(i + 1) + " =");
+                Console.Write("\nEnter No #"+(i + 1) + " =");
                 z[i] = int.Parse(Console.ReadLine());
             }
             Console.WriteLine();
@@ -31,61 +31,77 @@ namespace ConsoleApplication5
             Console.WriteLine();
             for (int i = 0; i < array2; i++)
             {
-                Console.Write("Enter No #" + (i + 1) + " =");
+                Console.Write("\nEnter No #" + (i + 1) + " =");
                 y[i] = int.Parse(Console.ReadLine());
             }
             Console.WriteLine();
             Console.WriteLine("----------How many Quantum you want-----------");
             q = int.Parse(Console.ReadLine());
             Console.WriteLine();
-
-        l1:
-
-            
-
-            for (int i = r; i < q; i++)
+            int x = array1 + array2;
+            int zi = 3;
+            int yi = 3;
+           int iz = 0,iy=0;
+           int arr = 0, arr2 = 0;
+            l1:
+           if (iz+zi<=array1)
+           {
+               for (int i = iz; i < zi; i++)
+               {
+                   Console.ForegroundColor = ConsoleColor.Green;
+                   Console.WriteLine("process z is running...with quantum of {0} second and process # {1}", (i + 1), z[i]);
+               }
+               zi = zi + 3;
+               iz = iz + 3;
+               arr = arr + 3;
+           }
+           else
+           {
+               int help=0;
+               for (int i = iz; i < array1; i++)
+               {
+                     Console.ForegroundColor = ConsoleColor.Green;
+                   Console.WriteLine("process z is running...with quantum of {0} second and process # {1}", (i + 1), z[i]);
+                   help++;
+               }
+               arr = arr + help;
+           }
+           Console.ForegroundColor = ConsoleColor.Red;
+           Console.WriteLine("process changed....");
+           
+            if (iy+yi<=array2)
             {
-               
-                if (i<array1)
+                for (int j = iy; j < yi; j++)
                 {
-
-                   
-                    Console.Write(z[i]+",");
-                    r = i + 1;
-                    
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("process y is running...with quantum of {0} second and process # {1}", (j + 1), y[j]);
+                
                 }
-                    
-                 
-                else
-                {
-                    break;
-                }
-
-                Console.WriteLine("..............from array 1");
-                Console.WriteLine();
+                yi = yi + 3;
+                iy = iy + 3;
+                arr2 = arr2 + 3;
             }
-        
 
-                for (int i = a; i < q; i++)
+            else
+            {
+                int help2 = 0;
+                for (int j = iy; j < array2; j++)
                 {
-                    if (i<array2)
-                    {
-                        
-                        Console.Write(y[i]+",");
-                        a = i + 1;
-                        
-                    }
-                    else
-                    {
-                        break;
-                    }
-                    Console.WriteLine("--------------from array 2");
-                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("process y is running...with quantum of {0} second and process # {1}", (j + 1), y[j]);
+                    help2++;
                 }
-               
-                q = q + q;
+                arr2 = arr2 + help2;
+            }
+
+            if ((arr+arr2)<(array1+array2))
+            {
                 goto l1;
+            }
+
                 Console.ReadLine();
         }
+
+        
     }
 }
